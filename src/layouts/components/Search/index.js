@@ -9,7 +9,7 @@ import AccountItem from '~/components/AccountItem';
 import { SearchIcon } from '~/components/Icons';
 import styles from './Search.module.scss';
 import { useDebounce } from '~/hooks';
-import * as searchServices from '~/apiServices/searchServices';
+import * as searchServices from '~/services/searchService';
 
 const cx = classNames.bind(styles);
 
@@ -54,7 +54,7 @@ function Search() {
     };
 
     return (
-        //Using a wrapper <div> tag around the reference element solves 
+        //Using a wrapper <div> tag around the reference element solves
         //this by creating a new parentNode context.
         <div>
             <HeadlessTippy
