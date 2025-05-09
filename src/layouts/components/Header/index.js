@@ -195,10 +195,7 @@ function Header() {
                 <Link to={config.routes.home} className={cx('logo-link')}>
                 <img src={images.logo} alt="TikTok" />
                 </Link>
-                {/*Search Start*/}
                 <Search />
-                {/*Search End*/}
-
                 {/*Action Start*/}
                 <div className={cx('actions')}>
                     {currentUser ? (
