@@ -51,6 +51,91 @@ const MENU_ITEMS = [
                     code: 'ko',
                     title: 'Korean',
                 },
+                {
+                    type: 'language',
+                    code: 'zh',
+                    title: 'Chinese',
+                },
+                {
+                    type: 'language',
+                    code: 'fr',
+                    title: 'French',
+                },
+                {
+                    type: 'language',
+                    code: 'de',
+                    title: 'German',
+                },
+                {
+                    type: 'language',
+                    code: 'es',
+                    title: 'Spanish',
+                },
+                {
+                    type: 'language',
+                    code: 'it',
+                    title: 'Italian',
+                },
+                {
+                    type: 'language',
+                    code: 'pt',
+                    title: 'Portuguese',
+                },
+                {
+                    type: 'language',
+                    code: 'ru',
+                    title: 'Russian',
+                },
+                {
+                    type: 'language',
+                    code: 'tr',
+                    title: 'Turkish',
+                },
+                {
+                    type: 'language',
+                    code: 'ar',
+                    title: 'Arabic',
+                },
+                {
+                    type: 'language',
+                    code: 'hi',
+                    title: 'Hindi',
+                },
+                {
+                    type: 'language',
+                    code: 'nl',
+                    title: 'Dutch',
+                },
+                {
+                    type: 'language',
+                    code: 'pl',
+                    title: 'Polish',
+                },
+                {
+                    type: 'language',
+                    code: 'sv',
+                    title: 'Swedish',
+                },
+                {
+                    type: 'language',
+                    code: 'no',
+                    title: 'Norwegian',
+                },
+                {
+                    type: 'language',
+                    code: 'da',
+                    title: 'Danish',
+                },
+                {
+                    type: 'language',
+                    code: 'fi',
+                    title: 'Finnish',
+                },
+                {
+                    type: 'language',
+                    code: 'is',
+                    title: 'Icelandic',
+                }
             ],
         },
     },
