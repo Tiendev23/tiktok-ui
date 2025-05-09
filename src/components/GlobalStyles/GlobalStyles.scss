@@ -1,5 +1,19 @@
 @import 'normalize.css';
 
+
+:root {
+    --primary: #fe2c55;
+    --black: #000;
+    --white: #fff;
+    --text-color: #161823;
+
+    --font-family: TikTokFont;
+
+    // Default Layout
+    --defalt-layout-header-height: 60px;
+    --defalt-layout-width: 1150px;
+    --defalt-layout-horizontal-spacer: 24px;
+}
 // Fonts emmbeded
 @font-face {
     font-family: TikTokFont;
@@ -26,18 +40,6 @@
     src: url('/assets/fonts/TikTokFont-Bold.woff2');
     font-weight: 700;
 }
-
-:root {
-    --primary: #fe2c55;
-    --black: #000;
-    --white: #fff;
-    --text-color: #161823;
-
-    // Default Layout
-    --defalt-layout-header-height: 60px;
-    --defalt-layout-width: 1150px;
-    --defalt-layout-horizontal-spacer: 24px;
-}
 * {
     box-sizing: border-box;
     margin: 0;
@@ -48,7 +50,7 @@ html {
 }
 
 body {
-    font-family: 'TikTokFont';
+    font-family: var(--font-family);
     font-size: 1.6rem;
     line-height: 1.5;
     text-rendering: optimizeSpeed;

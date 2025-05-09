@@ -12,7 +12,7 @@ const cx = classNames.bind(styles);
 const defaultFn = () => {};
 
 
-function Menu({ children, items = [] , onChange = defaultFn }) {
+function Menu({ children, items = [] , onChange = defaultFn,hideOnClick = false}) {
     const [history, setHistory] = useState([{ data: items }]);
     const current = history[history.length - 1]; // láy phần tử cuối mảng
 
@@ -41,6 +41,7 @@ function Menu({ children, items = [] , onChange = defaultFn }) {
             interactive={true}
             placement="bottom-end"
             delay={[0, 700]}
+            hideOnClick={false}
             render={(attrs) => (
                 <div className={cx('menu-list')} tabIndex="-1" {...attrs}>
                     <PopperWrapper className={cx('menu-popper')}>
